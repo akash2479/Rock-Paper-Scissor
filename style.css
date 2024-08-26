@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;   
+}
+
+h1{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+     line-height: 50px;   /*  to align it in center from 4 sides*/
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 200px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+      /* it will light the images */
+  cursor: pointer;    /*   it will amke cursor a pointer /hand */
+  background-color: black;
+}
+
+img{
+    height:100px;
+    width: 170px;
+    object-fit:cover;
+    border-radius: 50px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 100px;
+    
+}
+
+#user-score,
+#comp-score{
+    font-size: 70px;
+}
+
+.msg-container{
+    margin-top: 50px;
+}
+
+#msg{
+   
+    background-color: black;
+    color: white;
+    font-size: 30px;
+   display: inline;   /*      it only uses a limited black line */
+   padding: 1rem;
+   border-radius: 1rem;
+    
+
+}
+
+.hi{
+    
+    font-size: 30px;
+}
+
+#reset-btn{
+    font-size:25px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+
+}
+
+#rock{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#paper{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+#scissor{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
